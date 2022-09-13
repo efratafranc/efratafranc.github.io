@@ -1,0 +1,143 @@
+*, ::before, ::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Mono', monospace;
+}
+
+body {
+	background: #fad121;
+}
+
+main {
+	color: #24221f;
+	
+}
+
+p {
+	font-weight: 500;
+}
+
+
+.profile-section {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.profile-section > img {
+	width: 200px;
+	border-radius: 100%;
+	margin: 20px 0;
+	border: 5px solid #24221f;
+}
+
+.bio {
+	margin-bottom: 30px;
+	font-weight: 700;
+}
+
+.bio > h1 {
+	font-weight: bold;
+}
+
+.page-link {
+
+}
+
+.page-link > button {
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+	padding: 10px;
+	border-radius: 20px;
+	background: #24221f;
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+
+.many {
+	width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-items: space-around;
+    text-align: center;
+
+}
+
+.many-wrapper {
+	text-align: center;
+	margin-top: 50px;
+	background: #fa3c6a;
+	padding: 50px 0;
+}
+
+.many-wrapper > button {
+	margin-bottom: 10px;
+	font-size: 1rem;
+	padding: 10px 15px;
+	border-radius: 20px;
+	background: #24221f;
+	border: none;
+	color: white;
+	font-weight: 600;
+}
+
+.many-list {
+	/*padding: 20px;*/
+}
+
+.many-list > img {
+	width: 120px;
+	border-radius: 10px;
+	object-fit: cover;
+	margin: 10px;
+}
+
+.collab {
+	width: 80%;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.collab > h2 {
+	font-weight: 700;
+}
+
+.collab-list > p {
+	margin-top: 5px;
+	font-weight: 700;
+}
+
+.collab-info {
+	margin: 50px 0;
+}
+
+.collab-info > button {
+	margin-bottom: 10px;
+	font-size: 1rem;
+	padding: 10px 15px;
+	border-radius: 20px;
+	background: #24221f;
+	border: none;
+	color: white;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+
+.collab-list > img {
+	width: 100%;
+	border-radius: 15px;
+	margin-top: 20px;
+}
+
+
+
+footer {
+	margin: 50px 0;
+	text-align: center;
+	color: #24221f;
+}
